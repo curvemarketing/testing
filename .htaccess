@@ -1,0 +1,9 @@
+Options +Indexes
+
+AddOutputFilterByType DEFLATE text/html text/xml text/css text/javascript
+
+ErrorDocument 404 /
+
+RewriteEngine On
+
+RewriteRule ^php$ phpinfo.php [L]
