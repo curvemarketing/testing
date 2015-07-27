@@ -1,5 +1,5 @@
 <?
-echo "hello world 5";
+echo "hello world 7";
 
 $browser=$_SERVER['HTTP_USER_AGENT'];
 mail("sales@rbcoins.com","test 1","test message \r\n $browser");
